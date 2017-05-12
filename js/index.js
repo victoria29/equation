@@ -1,18 +1,15 @@
 var a = Number(prompt('Enter A'));
+while(Number.isNaN(a)){
+    a=Number(prompt('Insert the number!'));
+    }
 var b = Number(prompt('Enter B'));
+while(Number.isNaN(b)) {
+    b = Number(prompt('Insert the number!'));
+    }
 var c = Number(prompt('Enter C'));
-if (Number.isNaN(a)) {
-    alert('Insert the number!')
-    (prompt('Enter A'))
-}
-if (Number.isNaN(b)) {
-    alert('Insert the number!')
-    (prompt('Enter B'))
-}
-if (Number.isNaN(c)) {
-    alert('Insert the number!')
-    (prompt('Enter C'))
-}
+    while(Number.isNaN(c)) {
+        c = Number(prompt('Insert the number!'));
+    }
 if (a==0){
     document.write('This equation is not a square.');
 }
